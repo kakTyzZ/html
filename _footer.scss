@@ -1,0 +1,126 @@
+.section-footer {
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+.footer-main-box {
+}
+.main-box {
+  // .main-box__title
+
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+
+    text-align: center;
+
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+
+  // .main-box__text
+
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+
+    text-align: center;
+
+    color: #ffffff;
+
+    opacity: 0.5;
+
+    max-width: 411px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+
+  // .main-box__form
+
+  &__form {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  // .main-box__links-box
+
+  &__links-box {
+    display: flex;
+    gap: 30px;
+
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+  }
+
+  // .main-box__bottom-text
+
+  &__bottom-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+
+    text-align: center;
+
+    color: #ffffff;
+
+    opacity: 0.8;
+  }
+}
+.form {
+  // .form_input
+
+  &_input {
+    max-width: 332px;
+    width: 100%;
+    height: 44px;
+
+    background: rgba(255, 255, 255, 0.3);
+
+    color: rgba(255, 255, 255, 1);
+
+    border-radius: 50px 0px 0px 50px;
+    padding-left: 31px;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  // .form_btn
+
+  &_btn {
+    margin-left: -20px;
+    z-index: 20;
+    background: linear-gradient(94.78deg, #df5950 11.19%, #451046 93.72%);
+    border-radius: 50px;
+    width: 160px;
+    height: 44px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+}
+.links-box {
+  // .links-box__item
+
+  &__item {
+    background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  &__item img {
+  }
+}

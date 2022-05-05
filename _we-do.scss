@@ -1,0 +1,45 @@
+.section-we-do {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.container {
+  display: flex;
+  height: 542px;
+}
+
+.we-do {
+  // .we-do__img-box
+
+  &__img-box {
+  }
+
+  // .we-do__content-box
+
+  &__content-box {
+  }
+}
+.box {
+  // .box__img
+
+  &__img {
+    margin-right: 134px;
+  }
+}
+.content-box {
+  // .content-box__title
+
+  &__title-we-do {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    margin-bottom: 45px;
+    color: #ffffff;
+    margin-top: 70px;
+  }
+
+  // .content-box__text
+
+  &__text-we-do {
+    color: #ffffff;
+  }
+}

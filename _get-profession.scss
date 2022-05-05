@@ -1,0 +1,77 @@
+.section-get-profession {
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.get-profession {
+  // .get-profession__title
+
+  &__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+
+    text-align: center;
+
+    color: #ffffff;
+    margin-bottom: 120px;
+  }
+
+  // .get-profession__cards-box
+
+  &__cards-box {
+    display: flex;
+  }
+}
+.cards-box {
+  // .cards-box__card
+
+  &__card {
+    justify-content: center;
+    text-align: center;
+    max-width: 360px;
+    width: 100%;
+    margin-right: 30px;
+  }
+}
+.card {
+  // .card__logo
+
+  &__logo {
+    margin-bottom: 60px;
+  }
+
+  // .card__title
+
+  &__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+
+    color: #ffffff;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+  }
+
+  // .card__text
+
+  &__text {
+    color: #ffffff;
+
+    opacity: 0.8;
+    max-width: 360px;
+    width: 100%;
+  }
+}
+.logo {
+  // .logo__img
+
+  &__img {
+  }
+}
